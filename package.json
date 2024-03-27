@@ -1,16 +1,13 @@
 {
-  "name": "testmongoose",
+  "name": "your-app-name",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your application description",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js" 
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "mongoose": "^7.0.3"
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
   }
 }
